@@ -3,9 +3,10 @@ import './style.css'
 
 const bnt = document.getElementById('btn')
 
-const pass = document.getElementById('pass')
+const passs = document.getElementById('pass')
+
 
 bnt.addEventListener('click', () => {
   const randomPass = nanoid();
-  pass.innerHTML = randomPass;
+  passs.innerHTML = randomPass;
 });
